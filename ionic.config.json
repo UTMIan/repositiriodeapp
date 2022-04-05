@@ -1,0 +1,7 @@
+{
+  "name": "AppSchoolServices",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
