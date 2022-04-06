@@ -1,9 +1,30 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>academic</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Academic
+    </ion-title>
+    
+      <ion-avatar slot="end" style="height:30px">
+        <img src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png" />
+      </ion-avatar>
+
+
   </ion-toolbar>
+  
 </ion-header>
 
 <ion-content>
-
+  <ion-content class="ion-padding-start ion-padding-end" fullscreen>
+    <div style="text-align:center" class="grid-item">
+      <h2>Schedule - Group 1</h2>
+      <img src="https://sites.google.com/a/stmary.edu.ni/sixth-grade-a/_/rsrc/1486500139071/schedule-horario-escolar/Horario%20google%20site%20.jpg"/>
+    </div>
+    <div style="text-align:center" class="grid-item">
+      <h2>Your Grades</h2>
+      <img src="https://elpuntero.com.mx/inicio/wp-content/uploads/2021/07/consulta3.jpg"/>
+    </div>
 </ion-content>
